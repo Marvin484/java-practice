@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class StringUtils {
     
-    public static void stringMethods(String text) {
+    public static void demonstrateStringMethods(String text) {
         System.out.println("Here are a few characteristics of the text: ");
         System.out.println("Original text: " + text);
         System.out.println("Text length: " + text.length());
@@ -50,7 +50,7 @@ public class StringUtils {
         
         Scanner scanner = new Scanner(System.in);
 
-        stringMethods("Good morning!");
+        demonstrateStringMethods("Good morning!");
 
         System.out.println("Enter a word to check if it is a palindrome: ");
         String word = scanner.nextLine();
