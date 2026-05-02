@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class StringUtils {
     
     public static void demonstrateStringMethods(String text) {
+        
         System.out.println("Here are a few characteristics of the text: ");
         System.out.println("Original text: " + text);
         System.out.println("Text length: " + text.length());
@@ -50,12 +51,16 @@ public class StringUtils {
         
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("");
         demonstrateStringMethods("Good morning!");
 
+        System.out.println("");
         System.out.println("Enter a word to check if it is a palindrome: ");
         String word = scanner.nextLine();
 
+        System.out.println("");
         System.out.println(isPalindrome(word));
+        System.out.println("");
 
         scanner.close();
 

@@ -53,17 +53,20 @@ public class ArrayUtils {
         int[] numbers = {3, 7, 2, 9, 5};
 
         try {
+            System.out.println("");
             System.out.println("Max: " + max(numbers));
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
 
         try {
+            System.out.println("");
             System.out.println("Min: " + min(numbers));
         } catch(IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
 
+        System.out.println("");
         System.out.println("Sum: " + sum(numbers));
     }
 }
