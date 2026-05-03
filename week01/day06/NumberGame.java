@@ -20,9 +20,9 @@ public class NumberGame {
                 numGuess++;
 
                 if (guess < number) {
-                    System.out.println("Go higher.");
+                    System.out.print("Go higher. ");
                 } else if (guess > number) {
-                    System.out.println("Go lower.");
+                    System.out.print("Go lower. ");
                 } else {
                     System.out.println("You have guessed correctly.");
                     break;
@@ -31,7 +31,7 @@ public class NumberGame {
             }
             System.out.println("You have guessed the number in " + numGuess + " attempt(s).");
 
-            System.out.print("Would you like to play again? (yes/no)");
+            System.out.print("Would you like to play again? (yes/no) ");
             playAgain = scanner.next();
 
         }
