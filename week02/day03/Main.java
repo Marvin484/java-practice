@@ -3,7 +3,7 @@ package week02.day03;
 public class Main {
     
     public static void main(String[] args) {
-        Animal a = new Animal("Meawson", 17, "woosh");
+        Animal a = new Animal("Meawson", 17);
         Dog d = new Dog("Jack", 6, "labrador");
         Cat c = new Cat("lion", 11, "grey", true);
 

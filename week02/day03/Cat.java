@@ -5,9 +5,14 @@ public class Cat extends Animal {
     private boolean isIndoor;
 
     public Cat(String name, int age, String color, boolean isIndoor) {
-        super(name, age, "meow");
+        super(name, age);
         this.color = color;
         this.isIndoor = isIndoor;
+    }
+
+    @Override
+    public String getSound() {
+        return "meow";
     }
 
     @Override
